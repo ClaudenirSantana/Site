@@ -34,20 +34,24 @@ html {
 
 .header {
   text-align: center;
-  font-size: 28px;
+  font-size: 55px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .image figcaption {
   font-style: italic;
   text-align: center;
+  padding-top: 4px;
 }
 
-.title-paragraph-1 h2 {
+.title-paragraph-1 {
   font-weight: bold;
+  margin: 2px;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Oswald", sans-serif;
+  border-top: 1px dashed#ddd;
+  padding-top: 12px;
 }
 
 .sub-title {
@@ -57,7 +61,6 @@ html {
 
 .image {
   text-align: center;
-  border-bottom: 1px dashed#ddd;
 }
 
 .image img {
