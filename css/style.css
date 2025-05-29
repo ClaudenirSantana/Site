@@ -57,6 +57,12 @@ html {
   padding-top: 4px;
 }
 
+.elementos {
+  text-align: center;
+  font-size: 33px;
+  display: block;
+}
+
 .title-paragraph-1 {
   font-weight: bold;
   margin: 2px;
