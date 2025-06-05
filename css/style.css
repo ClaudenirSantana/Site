@@ -136,3 +136,31 @@ html {
 .evoluçao {
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .header {
+    font-size: 30px;
+  }
+
+  .elementos {
+    font-size: 20px;
+  }
+
+  .title-paragraph-1 {
+    font-size: 25px;
+  }
+
+  .main-paragraph,
+  .text_1,
+  .text_2,
+  .text_3 blockquote,
+  .text_4 blockquote,
+  .text_5 {
+    font-size: 16px;
+  }
+}
