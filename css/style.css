@@ -157,7 +157,7 @@ html {
   margin-top: 14px;
   width: 78.7%;
   height: 23px;
-  background: url(/img/fogo1.png) repeat-x center;
+  background: url("../img/fogo1.png") repeat-x center;
   background-size: contain;
   filter: drop-shadow(0 0 10px #ff7b00) drop-shadow(0 0 20px #ff0000);
   position: absolute;
