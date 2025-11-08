@@ -154,16 +154,20 @@ html {
 }
 
 .fire-line {
-  margin-top: 14px;
-  width: 78.7%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   height: 23px;
+  min-height: 10px; /* Altura mínima */
+  max-height: 25px; /* Altura máxima */
   background: url("../img/fogo1.png") repeat-x center;
   background-size: contain;
   filter: drop-shadow(0 0 10px #ff7b00) drop-shadow(0 0 20px #ff0000);
   position: absolute;
-  top: 1010px;
+  top: 40%;
+  left: 0;
+  right: 0;
   z-index: 30;
-  right: 134px;
 
   animation: fireMove 100s linear infinite, fireFlicker 0.9s infinite alternate;
 }
@@ -273,13 +277,30 @@ html {
   font-weight: bold;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1024px) {
   .fire-line {
-    top: 950px;
+    top: 40%; /* Ajusta para telas menores */
   }
 }
 
-@media (max-width: 814px) {
+@media (max-width: 910px) {
+  .fire-line {
+    top: 38%;
+  }
+}
+
+@media (max-width: 860px) {
+  .fire-line {
+    top: 37%; /* Posição específica que você já tinha */
+    /* Se 950px for muito, tente: */
+    /* top: 800px; */
+  }
+}
+
+@media (max-width: 815px) {
+  .header {
+    font-size: clamp(1.1rem, 6vw, 2.2rem);
+  }
   .fire-line {
     display: none;
   }
@@ -291,8 +312,9 @@ html {
     padding: 15px;
   }
 
-  .header {
-    font-size: 30px;
+  .fire-line {
+    top: 600px;
+    height: 18px;
   }
 
   .elementos {
@@ -310,5 +332,17 @@ html {
   .text_4 blockquote,
   .text_5 {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 814px) and (orientation: portrait) {
+  .fire-line {
+    top: 600px; /* Ajuste específico para retrato */
+  }
+}
+
+@media (max-width: 814px) and (orientation: landscape) {
+  .fire-line {
+    top: 400px; /* Ajuste específico para paisagem */
   }
 }
