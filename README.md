@@ -21,7 +21,7 @@ Este é um site estático que apresenta, com layout estilizado e responsivo, a h
 │     └── fogo1.png  
 
 ## ▶️ Link do site
-.https://claudenirsantana.github.io/Site/
+https://claudenirsantana.github.io/Site/
 
 ## 👊 Tema
 A página aborda: origem da rivalidade, massacre do clã Shirai Ryu, retorno de Scorpion, entrada de Kuai Liang como novo Sub-Zero e evolução da relação entre os personagens.
